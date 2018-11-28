@@ -1,0 +1,43 @@
+---
+title: "Nosology in R Notes"
+output: html_notebook
+---
+```{r message=FALSE}
+library(DiagrammeR)
+library(tidyverse)
+```
+
+
+Nosology in R Ideas
+
+Make Nosology more useful by providing Nosology data in a format that is 1) machine-readable, 2) re-usable
+Use this data to make a human readable website that displays the data in different ways
+
+What kind of information do we want to link?
+
+Diseases to genes
+Example: 
+```{r}
+grViz("diagram.gv")
+```
+
+Here I try to create the image from a dataframe. Just a quick test, if it works, expand with using OMIM ID etc
+```{r}
+diseases <- c(
+  "Achondroplasia",
+  "OI_1",
+  "OI_2",
+  "Fibrochondrogenesis"
+)
+
+```
+
+Stickler good example to work out model, maybe gene comes first?
+
+Stickler_4 caused by AR nonsense mutations in COL11A1, thus likely haploinsuff for COL11A1
+MED_6 caused by AD in-frame deletion of certain exons in COL11A1, thus likely more specific disease mechanism
+that explains the different phenotype, how to model this?
+
+
+
+
