@@ -1,0 +1,8 @@
+---
+title: "Nosology Project"
+author: "Andreas Zankl"
+date: "28/11/2018"
+output: github_document
+---
+
+Nothing to see here yet.
