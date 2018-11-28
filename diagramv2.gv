@@ -1,7 +1,0 @@
-#this is a diagram in GraphViz DOT language. It shows some ideas which kind of data should be linked in the nosology. 
-
-digraph {
-edge []
-COL11A1_haploinsufficiency -> Stickler_4
-
-}
