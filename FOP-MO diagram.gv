@@ -1,0 +1,15 @@
+#this is a diagram in GraphViz DOT language. It tries to model the biologial link between FOP and MO.
+
+digraph {
+
+graph [  ]
+
+edge []
+ACVR1_FOP_mutation -> BMP_signalling [label = ' increases']
+EXT_MO_Mutation -> HSPG_production [label = ' decreases'] 
+HSPG_production -> BMP_signalling [label = ' increases'] 
+BMP_signalling -> mesenchymal_cell_differentiation
+mesenchymal_cell_differentiation -> cartilage_formation -> bone_formation
+
+BMPR1B_brachydactyly_mutation -> BMP_signalling [label = ' decreases']
+}
