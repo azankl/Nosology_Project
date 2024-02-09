@@ -1,6 +1,11 @@
 #this is a diagram in GraphViz DOT language. It shows some ideas which kind of data should be linked in the nosology. 
 
 digraph {
+
+graph [ layout = dot
+        rankdir = TB 
+        overlap = FALSE ]
+
 edge []
 Achondroplasia -> FGFR3
 FGFR3 ->chondrocyte_proliferation
@@ -19,4 +24,5 @@ PSACH -> COMP_Mutation -> ER_Stress
 COMP_Mutation -> COMP
 COMP -> extracellular_matrix_organization
 ER_Stress -> chondrocyte_proliferation [label = '  negatively regulates']
+PSACH -> short_stature, brachydactyly
 }

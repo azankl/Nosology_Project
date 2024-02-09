@@ -21,17 +21,6 @@ Example:
 grViz("diagram.gv")
 ```
 
-Here I try to create the image from a dataframe. Just a quick test, if it works, expand with using OMIM ID etc
-```{r}
-diseases <- c(
-  "Achondroplasia",
-  "OI_1",
-  "OI_2",
-  "Fibrochondrogenesis"
-)
-
-```
-
 Stickler good example to work out model, maybe gene comes first?
 
 Stickler_4 caused by AR nonsense mutations in COL11A1, thus likely haploinsuff for COL11A1
@@ -40,4 +29,5 @@ that explains the different phenotype, how to model this?
 
 
 
+- 
 
